@@ -1,0 +1,59 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+            "responses": ["Hello, I am chatbot that can assist you with the admission process"]
+        },
+        {
+            "tag": "help",
+            "patterns": ["Help", "Need help"],
+            "responses": ["I can help you with the admission process. Ask me anything"]
+        },
+        {
+            "tag": "admission",
+            "patterns": ["How to get admission", "Explain admission process", "how to apply", "get admission in your college"],
+            "responses": ["To get admitted into our college, register for the entrance exam and attend it. Based on the results of the exam, you can select the campus, stream, etc..."]
+        },
+        {
+            "tag": "fee_structure",
+            "patterns": ["What's the fee?", "fee structure", "how much should we pay", "how much do i have to pay"],
+            "responses": ["You can checkout our website for the fee structure: <LINK>"]
+        },
+        {
+            "tag": "register",
+            "patterns": ["register for entrance exam", "How to register for the entrance exam", "where to register for the entrance exam"],
+            "responses": ["You can search for the college's entrance exam in Google or follow this <LINK>"]
+        },
+        {
+            "tag": "hostel",
+            "patterns": ["hostel facility", "What about hostel facility", "Can students stay in the college", "Is there a place to stay", "do you have hostel facility"],
+            "responses": ["Students have the option to opt for the hostel facility provided by the college. Hostel consists of rooms, food and games to play"]
+        },
+        {
+            "tag": "hostel_food",
+            "patterns": ["hostel food", "What about the food in hostel", "Is the hostel food good"],
+            "responses": ["The hostel provides the students with 3 meals a day alongside snacks. The menu is different for each day"]
+        },
+        {
+            "tag": "hostel_fee",
+            "patterns": ["hostel fee", "what is the hostel fee", "How much is the hostel fee", "hostel fee structure"],
+            "responses": ["You can checkout our website for hostel fee structure, including food, gym and games: <LINK>"]
+        },
+        {
+            "tag": "academics",
+            "patterns": ["How good is the academics here", "Is the academics good", "What about the academics"],
+            "responses": ["We review each and every course we teach every year, making sure that the academics is of international standards"]
+        },
+        {
+            "tag": "extra_curricular",
+            "patterns": ["extra curricular", "extra curricular activities", "Are there any extra curricular activities"],
+            "responses": ["Our college has plenty of things to do asides from academics. We have technical and non-technical clubs, sports, events etc..."]
+        },
+        {
+            "tag": "infrastructure",
+            "patterns": ["infrastructure", "How is the infrastructure","is the infrastructure good","how is the infrstructure compared to other colleges"],
+            "responses":["Infrastructure includes a green campus, well equipped labs and classes, 24x7 Wifi, well furnitured hostel blocks, sports facilities and training grounds, etc. Detailed infrastructure of our college can be checked on our website."]
+        }
+    ]
+}
